@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f2f3f2;
+}
+
+.container {
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+  width: 50%;
+  display: block;
+  border: 1px solid #ccc;
+  /* background-color: #5d5f5d; */
+}
+
+.quote {
+  font-size: 20px;
+  /* font-style: oblique; */
+  /* font-weight: bold; */
+  color: #000;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.author {
+  font-size: 15px;
+  font-style: oblique;
+  /* font-weight: bold; */
+  color: #000;
+  margin-bottom: 10px;
+  text-align: right;
+}
+.random-button {
+  text-align: center;
+  margin-top: 10px;
+}
+.random-button > button {
+  background-color: #5d5f5d;
+  font-size: 16px;
+  color: white;
+  padding: 5px 10px;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+}
